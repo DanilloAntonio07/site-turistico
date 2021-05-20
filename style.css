@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
 }
+
+body {
+    background-color: #E5E5E5;
+    width: 100%;
+}
+
+/*Header*/
 
 .menu {
     background-color: white;
@@ -17,6 +24,8 @@
 .divmenu {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-right: 160px;
 }
 
 .setaelogo {
@@ -55,6 +64,7 @@ i {
 
 .teresopolis {
     font-family: 'Barlow', sans-serif;
+    font-weight: 500;
     font-size: 16px;
     margin-top: 35px;
     color: #A0ACB2;
@@ -65,6 +75,7 @@ i {
     justify-content: center;
     align-items: center;
     font-family: 'Heebo', sans-serif;
+    font-weight: 500;
     font-size: 16px;
     color: #115D8C;
     background-color: #DDE9F0;
@@ -77,4 +88,102 @@ i {
 .login:hover {
     background-color: #cddae2;
 }
+
+.tere {
+    width: 100%;
+    margin-top: -300px;
+}
+
+.imgbox {
+    width: 100%;
+    height: 400px;
+    background-image: url(./img/cachoeira.jpeg);
+    background-position: center;
+
+    background-size: cover;
+}
+
+/*Section1*/
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aboutcity {
+    margin-top: 80px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.aboutcitytext1 {
+    color: #123952;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+}
+
+.aboutcitytext2 {
+    margin-top: 30px;
+    color: #123952;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+}
+
+.aboutcitytext3 {
+    margin-top: 40px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    color: #617480;
+    font-size: 16px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin-right: 130px;
+}
+
+.boxcard1 {
+    background-color: white;
+    width: 160px;
+    height: 268px;
+    border: 2px solid #DCE2E6;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.icon1 {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.line {
+    width: 160px;
+    height: 0px;
+    border: 1px solid #DCE2E6;
+    margin-top: 0px;
+}
+
+.text67 {
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #123952;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.textpontosturisticos {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    color: #617480;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
 
